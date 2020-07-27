@@ -1,0 +1,1 @@
+p- please put nng.dll into system32 file
