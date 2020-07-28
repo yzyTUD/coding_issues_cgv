@@ -22,8 +22,9 @@
         class CGV_API sphere_renderer : public surface_renderer
         class CGV_API surface_renderer : public group_renderer
     p- 添加外部链接库
-	修改.pj工程文件
-
+	    修改.pj工程文件
+    p- 解决冲突ambiguous
+        不要都叫Mesh！！
 
 
 
