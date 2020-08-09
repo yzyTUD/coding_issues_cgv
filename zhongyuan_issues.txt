@@ -1,11 +1,11 @@
 
 
-    p- change computer 
-        删除.vs临时文件夹
-	c1001 del. part of bin folder 
-    p- "vec3" 索引不到?
-        继承 cgv::render::render_types
-    p- 在cgv中设定灯光位置?
+    p- what should be done when using an other computer?
+        del .vs folder 
+	    c1001 del. part of bin folder 
+    p- "vec3" undefined?
+        inhire cgv::render::render_types
+    p- lighting in cgv?
         auto_set_lights_in_current_shader_program in gl_context creation 
         void context::set_current_lights(shader_program& prog) const in context.cxx 
         light_source.hh 
@@ -14,18 +14,18 @@
             default_light_source[0].set_position(vec3(-0.4f, 0.3f, 0.8f));
             default_light_source[1].set_local_to_eye(true);
             default_light_source[1].set_position(vec3(0.0f, 1.0f, 0.0f));
-    p- 自己写shader进行渲染（custom shaders）?
+    p- rendering with custom shaders?
         take rgb_diffuse_prog as example 
         steps 
             new shader_test.glpr, shader_test.glvs, shader_test.glfs 
             add cpu-side code  
-    p- 高效渲染？
+    p- render large number of primitives?  
         class CGV_API sphere_renderer : public surface_renderer
         class CGV_API surface_renderer : public group_renderer
-    p- 添加外部链接库
-	    修改.pj工程文件
-    p- 解决冲突ambiguous
-        不要都叫Mesh！！
+    p- additional denpendency?
+	    modify the .pj project file 
+    p- solve some ambiguous/ conflicts 
+        change the class name! 
 
 
 
