@@ -1,7 +1,8 @@
 
 
-    p- 反复编译程序运行没变化
+    p- change computer 
         删除.vs临时文件夹
+	c1001 del. part of bin folder 
     p- "vec3" 索引不到?
         继承 cgv::render::render_types
     p- 在cgv中设定灯光位置?

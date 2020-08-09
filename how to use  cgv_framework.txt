@@ -1,0 +1,16 @@
+preliminary: please install microsoft visual stdio 2019 community(or other version of vs)
+
+1. create a new folder "cobotics"
+2. create two subfolders in the folder "cobotics", one is "build", another is "projects"
+3. in the subfolder "projects", git clone https://github.com/lintianfang/cleaning_cobotics.git
+4. open the folder "cleaning_cobotics", drag the "projects" to define_project_dir.bat
+5. drag the "build" folder to define_system_variables.bat
+6. open the batch file define_platform.bat to set the win32 or 64
+7. check the configuration in the batch file show_system_variables.bat
+
+8. open the folder "plugins" to find the "vr_test", open the file
+9. in the folder "vr_cobotics", drag the vr_test.pj to ..\cleaning_cobotics\projects\cleaning_cobotics\bin\geberate_makefiles.bat
+10. waiting for generateing makefiles, and then press any key to continue, the project should be open in vs automatically.
+11. please choose "Release DLL" before you build.
+12. press f7 to build
+13. press Ctrl+f5 to run
